@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr&family=Paytone+One&family=Permanent+Marker&family=Roboto:wght@400;500;700;900&family=Rubik&family=Sedgwick+Ave+Display&family=Wendy+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.square {
+    border: 1px solid black;
+    font-size: 10rem ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive , sans-serif;
+    border: 5px solid black;
+}
+.game-board {
+    border: 5px solid black;
+    display: grid; 
+    grid-template-columns: repeat(3,minmax(50px , 200px)); 
+    grid-template-rows: repeat(3,minmax(50px , 200px)); 
+}; 
+
